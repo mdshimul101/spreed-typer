@@ -101,12 +101,13 @@ const closeModal = () => {
 };
 
 const start = () => {
+
   // If already started, do not start again
   if (startTime) return;
 
   let count = 3;
   countdownOverlay.style.display = "flex";
-
+  countdownOverlay.innerHTML = "";
   const startCountdown = setInterval(() => {
     countdownOverlay.innerHTML = count;
 
@@ -118,10 +119,11 @@ const start = () => {
       display.classList.remove("inactive");
       clearInterval(startCountdown);
       startTime = new Date().getTime();
+
     }
     count--;
-  }, 1000);
 
+  }, 1000);
 
 };
 
