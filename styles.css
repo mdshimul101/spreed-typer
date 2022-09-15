@@ -11,11 +11,11 @@ body {
   font-family: "Zilla Slab", serif;
 }
 
-.navbar {
+.navbar-list {
   padding: 15px;
 }
 
-.navbar a {
+.navbar-list a {
   color: wheat;
   text-decoration: none;
   font-size: 20px;
@@ -206,7 +206,7 @@ button {
     width: 100%;
   }
 
-  .navbar a {
+  .navbar-list a {
     font-size: 18px;
     margin-left: 25px;
 
