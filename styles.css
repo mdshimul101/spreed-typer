@@ -11,6 +11,18 @@ body {
   font-family: "Zilla Slab", serif;
 }
 
+.navbar {
+  padding: 15px;
+}
+
+.navbar a {
+  color: wheat;
+  text-decoration: none;
+  font-size: 20px;
+  margin-left: 50px;
+
+}
+
 .box-container {
   width: 70%;
   margin: 0 auto;
@@ -19,10 +31,12 @@ body {
 #question {
   height: 100px;
   display: flex;
+  margin-top: 25px;
   align-items: center;
   justify-content: center;
   color: white;
-  font-size: 25px;
+  font-size: 22px;
+  padding: 10px;
   border-radius: 15px;
   background: rgb(255, 255, 255);
   background: linear-gradient(92.49deg,
@@ -190,6 +204,17 @@ button {
   .box-container {
     padding: 0 20px;
     width: 100%;
+  }
+
+  .navbar a {
+    font-size: 18px;
+    margin-left: 25px;
+
+
+  }
+
+  #question {
+    height: 140px;
   }
 
   .card {
